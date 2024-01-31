@@ -35,4 +35,4 @@ jobs:
           context: .
           push: true
           target: prod
-          tags: ${{ env.GITHUB_SHA }}/${{ github.event.repository.name }}:latest
+          tags: here/${{ github.event.repository.name }}:latest
