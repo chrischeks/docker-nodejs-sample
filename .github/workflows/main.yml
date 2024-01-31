@@ -35,4 +35,4 @@ jobs:
           context: .
           push: true
           target: prod
-          tags: chekwubeudeogu@gmail.com/${{ github.event.repository.name }}:latest
+          tags: chekwube/${{ github.event.repository.name }}:latest
